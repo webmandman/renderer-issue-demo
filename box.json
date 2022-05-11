@@ -1,0 +1,33 @@
+{
+    "name":"renderer issue demo",
+    "version":"1.0.0",
+    "location":"",
+    "author":"You",
+    "slug":"renderer-issue-demo",
+    "createPackageDirectory":false,
+    "type":"mvc",
+    "homepage":"https://github.com/coldbox-templates/rest",
+    "documentation":"https://github.com/coldbox-templates/rest",
+    "repository":{
+        "type":"git",
+        "url":"https://github.com/coldbox-templates/rest"
+    },
+    "bugs":"https://github.com/coldbox-templates/rest/issues",
+    "shortDescription":"This template gives you the base for building RESTFul web services with ColdBox",
+    "contributors":[],
+    "ignore":[],
+    "devDependencies":{
+        "commandbox-dotenv":"*",
+        "commandbox-cfconfig":"*",
+        "commandbox-cfformat":"*"
+    },
+    "installPaths":{
+        "coldbox":"coldbox/",
+        "cbmailservices":"modules/cbmailservices/"
+    },
+    "dependencies":{
+        "coldbox":"6.5.2+37",
+        "cbmailservices":"^2.0.4+54"
+    },
+    "scripts":{}
+}

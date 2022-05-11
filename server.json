@@ -1,0 +1,10 @@
+{
+    "app":{
+        "cfengine":"adobe@2018.0.14+330003"
+    },
+    "web":{
+        "rewrites":{
+            "enable":true
+        }
+    }
+}
